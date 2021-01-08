@@ -1,0 +1,40 @@
+body {
+  font-family: Palatino;
+}
+
+#form-wrapper {
+  display:flex;
+  padding: 10px;
+}
+#new-item-form{
+  display:flex;
+  padding: 10px;
+}
+
+#reading-list {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+#reading-list > ul {
+  list-style: none;
+  border-radius: 5px;
+  border-style: solid;
+
+  border-color: black;
+  padding: 10px;
+  margin:10px;
+  background: aqua
+}
+
+.title {
+font-size: x-large;
+}
+
+.author {
+  font-size: medium;
+}
+
+.cat {
+  font-size: small;
+}
